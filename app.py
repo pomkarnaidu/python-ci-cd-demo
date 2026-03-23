@@ -1,1 +1,5 @@
-print("Hello, this is my first CI/CD pipeline project!")
+def main():
+    print("CI/CD pipeline executed successfully!")
+
+if __name__ == "__main__":
+    main()
