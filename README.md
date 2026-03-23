@@ -1,17 +1,40 @@
-# Python CI/CD Pipeline Project
+![CI](https://github.com/pomkarnaidu/python-ci-cd-demo/actions/workflows/main.yml/badge.svg)
+# 🚀 CI/CD Pipeline using GitHub Actions
 
-## Overview
-This project demonstrates a simple CI/CD pipeline using GitHub Actions.
+## 📌 Overview
+This project demonstrates a simple CI/CD pipeline using GitHub Actions to automate execution of a Python script.
 
-## Features
-- Automated pipeline on code push
-- Python script execution
-- CI workflow using YAML
+---
 
-## Tech Used
+## ⚙️ Workflow
+- Trigger: On every push to main branch
+- Environment: Ubuntu latest runner
+- Steps:
+  - Checkout code
+  - Setup Python
+  - Execute script
+
+---
+
+## 🧪 Output
+The pipeline runs automatically and prints:
+
+
+---
+
+## 🛠 Tech Stack
 - Python
 - GitHub Actions
 - Git
 
-## Output
-Pipeline runs automatically and executes Python script successfully.
+---
+
+## 📊 Result
+✔ Automated workflow execution  
+✔ Successful pipeline run  
+✔ CI/CD concepts implemented  
+
+---
+
+## 🔗 GitHub Actions
+Check the Actions tab to view pipeline runs.
