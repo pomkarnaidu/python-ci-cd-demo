@@ -1,2 +1,2 @@
-- name: Run tests
-  run: echo "Running basic tests..."
+name: Run tests
+run: echo "Running basic tests..."
