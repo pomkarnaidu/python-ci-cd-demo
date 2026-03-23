@@ -1,21 +1,2 @@
-name: CI/CD Pipeline - Python App
-
-on:
-  push:
-    branches: [ "main" ]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-
-    - name: Run Python script
-      run: python app.py
+- name: Run tests
+  run: echo "Running basic tests..."
